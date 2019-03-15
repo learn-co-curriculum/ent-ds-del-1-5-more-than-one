@@ -55,7 +55,7 @@ Here are some heuristics for getting started:
 * If you want a unique collection (e.g. all of the cities you are investigating people in), a **Set** is probably a good fit as you don't have to worry about duplicate entries and it's usually pretty quick to do lookups against it.
 * If you have a single collection of data points (list of cities, list of states, list of company names, list of business codes, etc) and you might want to support duplicates, a **List** is probably a good collection for you to use.
 * If you have a list of data points that you know will never change such as a list of US states (sure, we might end up annexing Canada, but in general the list of US states is unlikely to change on a regular basis), you could use a **Tuple**. It's not really that different from a list, but it makes it very clear to others reading your code that you do not expect to make any changes to that list of items.
-* Finally, if you have more complex data (think a spreadsheet, not a list), you're probably going to want to . use a **Dictionary** to store that (at least until next week when we introduce you to the Pandas library and their wonderful DataFrames!)
+* Finally, if you have more complex data (think a spreadsheet, not a list), you're probably going to want to use a **Dictionary** to store that (at least until next week when we introduce you to the Pandas library and their wonderful DataFrames!)
 
 ## Summary
 
